@@ -40,12 +40,12 @@ const IndexPage = () => (
 
   </div>
   <div>
-    <h1>Projects</h1>
+    <h1>Apps</h1>
 
     <ul>
       <li>
         <p>
-          <a href="http://mondainwords.herokuapp.com">
+          <a href="http://mondainwords.herokuapp.com" target="_blank">
             <b>
               Mondain Words
             </b>
@@ -53,9 +53,27 @@ const IndexPage = () => (
           : A web app to practice unscrambling words. Ionic/Angular/Typescript/Firebase.
           Success in Scrabble requires the accumulation of a vast amount of information, and some
           way to manage that complexity. The goal of Mondain is to improve the state of the art
-          in that areas. This app is still in an alpha stage of development. Source code <a href="https://github.com/quinnajames/mondain-ionic">here</a>.
+          in those areas. Source code <a href="https://github.com/quinnajames/mondain-ionic">here</a>.
         </p>
       </li>
+      <li>
+        <p>
+          <a href="http://colortheworld.herokuapp.com" target="_blank">
+            <b>
+              Color the World
+            </b>
+          </a>
+          : A color-picker and saver. Select a color, and get shown an array of complementary colors.
+          If you like the set, click to save it. Then tab over to the gallery to see what you've
+          previously saved.
+        </p>
+      </li>
+    </ul>
+
+  </div>
+  <div>
+    <h1>Other Projects</h1>
+    <ul>
       <li>
         <p>
           <a href="http://www.volucris.space/kanji-quiz/kanji.html">
@@ -115,7 +133,7 @@ const IndexPage = () => (
 </li>
 <li>
   <p>
-    Phone: (843) 209-6331
+    Phone: (843) 209<span>-6331</span>
   </p>
 </li>
 </ul>
